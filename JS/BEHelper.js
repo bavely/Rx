@@ -48,7 +48,7 @@ let msg = ` We in REPharmacy have noticed that you haven't completed the survey.
 Please click the link below to complete your survey. 
 ${BaseURL}/run/?id=${i.servid}&pid=${i.ptid}&pdate=${i.dispenseDate}&token=${i.token}  .
 To opt out, click on the follwing link ${BaseURL}/optout/?id=${i.ptid} .`;
-return axios.post(`${backEndBaseUrl}/servey/patintId`, {
+return axios.post(`/servey/patintId`, {
     id:i.ptid
   }).then((res) => {
     console.log(res)
