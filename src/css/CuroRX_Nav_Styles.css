@@ -1,0 +1,205 @@
+/* @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i&amp;subset=latin-ext&amp;display=swap"); */
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"); */
+
+/* CURO RX NAV STYLES SHEET  */
+
+#link-logout,
+#link-dashboard,
+#link-manage-patients,
+#link-new-referral,
+#link-my-profile,
+#link-help {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Lato";
+}
+
+#page-header {
+  font-weight: 300;
+  color: #497cb1 !important;
+}
+
+#manage-patient-table {
+  font-family: "Lato";
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #3d74af;
+  border-color: #cccccc;
+}
+
+#left-nav-vertical {
+  background-color: #3d74af !important;
+}
+
+#curorx-re-brand-logo {
+  background: #ffffff;
+  padding: 5px;
+}
+
+#Vertical_Accordion_Sidebar {
+  border: 1px solid #ff0000;
+}
+
+#icon-logout,
+#icon-help,
+#icon-my-profile,
+#icon-new-referral,
+#icon-manage-patients,
+#icon-dashboard {
+  font-size: 25px;
+}
+
+#wrapper {
+  display: flex !important;
+}
+
+/* #page-top {
+} */
+
+#provider-name-top-right {
+  margin-left: 10px;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#curo-re-logo {
+  margin: 25px 0px 25px 25px;
+}
+
+@media (max-width: 767px) {
+  #curo-re-logo {
+    margin: 5px 5px 5px 5px;
+  }
+}
+
+/* .navigation-clean {
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #333;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+
+@media (max-width:767px) {
+  .navigation-clean {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .navigation-clean .navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.navigation-clean .navbar-toggle {
+  border-color: #ddd;
+}
+
+.navigation-clean .navbar-toggle:hover, .navigation-clean .navbar-toggle:focus {
+  background: none;
+}
+
+.navigation-clean .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+
+.navigation-clean .navbar-collapse, .navigation-clean .navbar-form {
+  border-top-color: #ddd;
+}
+
+.navigation-clean .navbar-nav > .active > a, .navigation-clean .navbar-nav > .open > a {
+  background: none;
+  box-shadow: none;
+}
+
+.navigation-clean.navbar-default .navbar-nav > .active > a, .navigation-clean.navbar-default .navbar-nav > .active > a:focus, .navigation-clean.navbar-default .navbar-nav > .active > a:hover {
+  color: #8f8f8f;
+  box-shadow: none;
+  background: none;
+  pointer-events: none;
+}
+
+.navigation-clean.navbar .navbar-nav > li > a {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navigation-clean.navbar-default .navbar-nav > li > a {
+  color: #465765;
+}
+
+.navigation-clean.navbar-default .navbar-nav > li > a:focus, .navigation-clean.navbar-default .navbar-nav > li > a:hover {
+  color: #37434d !important;
+  background-color: transparent;
+}
+
+.navigation-clean .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.1);
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.navigation-clean .dropdown-menu > li > a:focus, .navigation-clean .dropdown-menu > li > a {
+  line-height: 2;
+  font-size: 14px;
+  color: #37434d;
+}
+
+.navigation-clean .dropdown-menu > li > a:focus, .navigation-clean .dropdown-menu > li > a:hover {
+  background: #eee;
+  color: inherit;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav {
+  float: none;
+}
+
+#link-logout, #link-dashboard, #link-manage-patients, #link-new-referral, #link-my-profile, #link-help {
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#physicians-container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#physicians-centered-nav-bar {
+  background: linear-gradient(#3f6fa6, #6baad5 100%);
+  font-family: Lato, sans-serif;
+}
+
+#physicians-toggle-nav {
+  border-style: solid;
+  border-color: rgb(255,255,255);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#physicians-nav-collapse {
+  text-align: left;
+} */

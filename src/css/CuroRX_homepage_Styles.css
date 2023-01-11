@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i, 700,700i&amp;subset=latin-ext&amp;display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
+#manage-now-div {
+    padding-right: 0px;
+    padding-left: 0px;
+    background: #4dabad;
+}
+
+#manage-now-div-row {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#manage-now-div-image-column {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#manage-now-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+}
+
+#index-welcome-div {
+    background: url("../images/images/Index_TopImage.jpg");
+    background-attachment: scroll;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0px;
+    text-align: left;
+    max-width: 100%;
+    height: auto;
+    min-height: 41rem;
+    padding-bottom: 5rem;
+}
+
+
+#index-top-logo-login-div {
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+#index-welcome-div-login {
+    padding-top: 4%;
+    padding-left: 5%;
+    height: auto;
+    width: auto;
+    max-width: auto;
+}
+
+#index-welcome-div-h1 {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    width: auto;
+    font-size: 3.5rem !important;
+    filter: drop-shadow(-1.5px 1.5px 3px #ffffffc3);
+}
+
+.curo {
+    color: #4682b4;
+    text-shadow: 0 1px 1px #000;
+}
+
+.rx {
+    color: skyblue;
+    text-shadow: 0 1px 1px #000;
+}
+
+#index-welcome-div-p {
+    color: rgb(255, 255, 255);
+    font-family: "Nunito", sans-serif;
+    font-size: 1.3rem;
+    padding-left: 0.2rem;
+    line-height: 20px;
+    width: 100%;
+    filter: drop-shadow(-1px 1px 1.5px #5a5b5c);
+}
+
+#index-top-logo-login-forgot-pw {
+    font-family: Lato, sans-serif;
+}
+
+
+.register-links a {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.5s;
+}
+
+.register-links a:hover {
+    font-weight: 700;
+    transform: scale(1.02);
+}
+
+.form-select {
+    width: 250px !important;
+}
+
+.alert {
+    padding: 0.8rem 0rem !important;
+}
+
+#welcome-div-usernameInput {
+    margin: 0 !important;
+}
+
+#top-login-username,
+#top-login-password,
+#welcome-div-username,
+#welcome-div-usernameInput,
+#welcome-div-password {
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+    height: 40px;
+    color: #547fb6;
+    font-family: Lato;
+    border: 1px solid #547fb6;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+#top-login-div {
+    padding-top: 20px;
+}
+
+#four-tiles-div {
+    width: 100%;
+}
+
+.four-tiles-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.four-tiles-row p {
+    margin-top: 0.5rem;
+}
+
+.four-tiles-row div {
+    max-height: 15rem;
+    padding: 2rem 0.4rem !important;
+}
+
+
+#tile-send-new-referral {
+    background: #a7d2e2;
+    padding: 55px 20px;
+}
+
+#tile-new-patient {
+    background: #9acade;
+    padding: 55px 20px;
+}
+
+#tile-register-as-new-provider {
+    background: #7bbcd2;
+    padding: 55px 20px;
+}
+
+#tile-training-resources {
+    background: #6db5ce;
+    padding: 55px 20px;
+}
+
+#icon-send-new-referral,
+#icon-new-patient-registration,
+#icon-register-as-new-provider,
+#icon-training-resources {
+    border-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    text-align: center;
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#manage-now-div-right-column {
+    padding: 10% 5%;
+    padding-right: 0px;
+    padding-left: 5%;
+    padding-top: 10%;
+    max-width: auto;
+    text-align: left;
+}
+
+#manage-now-heading {
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+}
+
+#manage-now-button {
+    height: 40px;
+    margin-right: 20px;
+    padding: 5px;
+    background: #4dabad;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 0 1rem;
+}
+
+#manage-now-button:hover {
+    border-color: #4dabad !important;
+    background-color: rgb(255, 255, 255);
+    color: #4dabad;
+}
+
+#make-new-referral-div {
+    background: url("../images/Index_MakingReferral-Full-Image.jpg") top / cover no-repeat;
+    background-attachment: fixed;
+    padding-right: 0px;
+    padding-left: 0px;
+    max-height: 584px;
+}
+
+#make-new-referral-row {
+    width: 100%;
+    height: 585px;
+    background-color: #0000002a;
+}
+
+#make-new-referral-column-left {
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#make-new-referral-heading {
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    text-align: right;
+    font-size: 19px;
+    padding-top: 0px;
+    border-top-width: 1px;
+    border-top-style: none;
+}
+
+#make-new-referral-button {
+    height: 40px;
+    margin-right: 0px;
+    padding: 5px;
+    background: #bbbdbc;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 1rem;
+}
+
+#make-new-referral-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #bbbdbc;
+    border-color: #bbbdbc;
+}
+
+#tile-text-send-new-referral,
+#tile-text-training-resources,
+#tile-text-register-as-new-provider,
+#tile-text-new-patient-registration {
+    font-family: LATO;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.php-email-form input {
+    border-radius: 5px !important;
+    color: #1977cc !important;
+    background-color: rgba(214, 233, 250, 0.6) !important;
+}
+
+.php-email-form input::placeholder {
+    color: #1977cc !important;
+}
+
+.php-email-form textarea {
+    border-radius: 5px !important;
+    color: #1977cc !important;
+    background-color: rgba(214, 233, 250, 0.6) !important;
+}
+
+.php-email-form textarea::placeholder {
+    color: #1977cc !important;
+}
+
+.container_main {
+    background-color: #326da9;
+    border-radius: 5px;
+    background-image: url("../images/heartofdrs.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 23%;
+    box-shadow: 1px 1px 23px gray;
+    height: 14rem;
+    padding: 20px;
+}
+
+.hello_h1 {
+    padding: 20px;
+    color: rgba(245, 245, 245);
+}
+
+.container_main p {
+    font-size: 25px;
+    color: rgba(245, 245, 245);
+    position: relative;
+    top: -21px;
+    left: 22px;
+}
+
+row.main.card {
+    box-shadow: 1px 1px 23px gray;
+    /*height: 25rem;*/
+}
+
+h5.card-title {
+    text-align: center;
+    font-size: 15px !important;
+}
+
+h5.card-title.mt-1.whatsNew {
+    font-size: 18px !important;
+}
+
+.card-text_num {
+    text-align: center;
+    font-size: 15px;
+}
+
+.card .text-muted {
+    display: none !important;
+}
+
+.btn.btn-outline-primary.icd {
+    border-color: white;
+    color: white;
+}
+
+.btn.btn-outline-primary.icd:hover {
+    border-color: steelblue;
+    color: steelblue;
+    background-color: white;
+}
+
+p.fw-bold1.emrPhoneNumber {
+    margin-left: 0.77rem;
+}
+
+p.text-primary.m-0.fw-bold {
+    color: white !important;
+}
+
+.row.center {
+    margin-left: 16rem;
+    text-align: center;
+}
+
+.row.center.card {
+    border: none;
+}
+
+.card.p-4 {
+    left: 9rem;
+}
+
+.login-msg {
+    text-shadow: 0.5px 0.5px 1px #424242;
+    color: rgb(243, 57, 66);
+    font-weight: 300 !important;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+@media only screen and (max-width: 1135px) {
+    img.col-md-3 {
+        width: 150px !important;
+    }
+
+    #make-new-referral-div {
+        background-attachment: scroll !important;
+    }
+
+    #index-welcome-div {
+        background-position: top;
+    }
+}
+
+@media only screen and (max-width: 997px) {
+    img.col-md-3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #top-log-in-div {
+        padding: 15% 5% 1% 5% !important;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #top-log-in-div-header {
+        font-size: 25px !important;
+        color: red;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #top-log-in-div-paragraph {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #top-log-in-container {
+        height: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #make-new-referral-column-div {
+        padding-top: 35% !important;
+    }
+
+    #index-welcome-div-login {
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+
+    .four-tiles-row p {
+        font-size: 1.1rem !important;
+    }
+
+    #index-welcome-div {
+        background: url("../../src/images/main-bg.jpg") right / cover no-repeat;
+    }
+
+
+    #make-new-referral-div {
+        background: url("../images/Index_MakingReferral-Image.jpg") top / cover no-repeat;
+    }
+
+    #make-new-referral-div p {
+        background-color: rgba(0, 0, 0, 0.05);
+        text-align: center;
+        border-radius: 1em;
+        padding: 1rem;
+    }
+
+    #make-new-referral-div * {
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 492px) {
+    .index-login-button {
+        top: 0;
+        left: 0;
+    }
+
+    #index-welcome-div-h1 {
+        font-size: 2.2rem !important;
+    }
+
+}

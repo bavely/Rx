@@ -1,0 +1,792 @@
+/*html, body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    border: 0;*/
+/*    vertical-align: baseline;*/
+/*}*/
+
+input.form-control {
+  background: white;
+}
+
+textarea.form-control {
+  background-color: white;
+}
+
+.container_therapy {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.container_therapy label {
+  font-size: 19px;
+}
+
+.container_therapy .form-select {
+  width: 285px;
+}
+
+.container_diagnose {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.diagnose_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.diagnose .form-select::placeholder {
+  color: black !important;
+}
+
+/* Alzheimer Form */
+.container_alzheimer form {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.alzheimer_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  /*color: #547fb6;*/
+}
+
+/*.form-group {*/
+/*    margin-bottom: 1rem !important;*/
+/*}*/
+
+/*.form-row {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    margin-right: -5px;*/
+/*    margin-left: -5px;*/
+/*}*/
+
+.container_alzheimer form input {
+  border-radius: 10px;
+}
+
+.container_alzheimer form label {
+  border: none;
+}
+
+.btn_alz {
+  border-color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px !important;
+}
+
+.btn_alz:hover {
+  border-color: #0275d8 !important;
+  color: #0275d8 !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+/* Asthma Form */
+.container_asthma form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.container_asthma form input {
+  border-radius: 10px;
+}
+
+.container_asthma form label {
+  border: none;
+}
+
+.asthma_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.btn_ast {
+  border-color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px !important;
+}
+
+.btn_ast:hover {
+  border-color: #0275d8 !important;
+  color: #0275d8 !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+/* Covid Form */
+.container_covid form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.container_covid strong {
+  color: #0275d8;
+}
+
+.container_covid form input {
+  border-radius: 10px;
+}
+
+.container_covid form label {
+  border: none;
+}
+
+.covid_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.btn_covid {
+  border-color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px !important;
+}
+
+.btn_covid:hover {
+  border-color: #0275d8 !important;
+  color: #0275d8 !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+/* Dermatology Form */
+.container_dermatology form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.container_dermatology form input {
+  border-radius: 10px;
+}
+
+.container_dermatology form label {
+  border: none;
+}
+
+.container_dermatology .area {
+  width: 31.8rem;
+}
+
+.dermatology_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.btn_der {
+  border-color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px !important;
+}
+
+.btn_der:hover {
+  border-color: #0275d8 !important;
+  color: #0275d8 !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+/* EOS form */
+.container_eos form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.container_eos form input {
+  border-radius: 10px;
+}
+
+.container_eos form label {
+  border: none;
+}
+
+.Eos_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+/* Gastroenterology Form */
+.container_gas form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.container_gas form input {
+  border-radius: 10px;
+}
+
+.container_gas form label {
+  border: none;
+}
+
+.gas_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+/* Hematopoietic Form */
+.container_hemat form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.hemat_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.container_hemat form input {
+  border-radius: 5px;
+}
+
+.container_hemat form label {
+  border: none;
+}
+
+.container_hemat form textarea {
+  width: 465px;
+}
+
+/* Hemophilia Form  */
+.container_hemo form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.hemo_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.container_hemo form input {
+  border-radius: 5px;
+}
+
+.container_hemo form label {
+  border: none;
+}
+
+.container_hemo form textarea {
+  width: 530px;
+}
+
+/* Hepatitis B Form */
+.container_hepB form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.hepB_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.container_hepB form input {
+  border-radius: 5px;
+}
+
+.container_hepB form label {
+  border: none;
+}
+
+/* HepC Form */
+.container_hepC form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.hepC_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.container_hepC form input {
+  border-radius: 5px;
+}
+
+.container_hepC form label {
+  border: none;
+}
+
+/* Hiv Form */
+.container_hiv form {
+  border: solid 1px black !important;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+.hiv_h3 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.container_hepC form input {
+  border-radius: 5px;
+}
+
+.container_hepC form label {
+  border: none;
+}
+
+.card-header.demo.py-3 {
+  background-color: steelblue !important;
+}
+
+p.text-primary.m-0.fw-bold1.lead {
+  color: white !important;
+}
+
+p.fw-bold1 {
+  color: steelblue;
+  font-size: 17px;
+}
+
+p.fw-normal {
+  color: black;
+  font-size: 15px;
+}
+
+.gap-2.col-md-4.float-end {
+  margin-right: -6rem !important;
+}
+
+input#welcome-div-username {
+  margin-left: 3.5rem;
+}
+
+.container.cal {
+  background-color: white;
+  height: 18rem !important;
+  color: steelblue;
+  border: solid;
+  border-radius: 5px;
+  width: 18rem;
+}
+
+.card-body.cal {
+  background-color: steelblue;
+  border-radius: 5px;
+}
+
+h5.card-title.task {
+  font-size: 25px !important;
+}
+
+h5.text.datime {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.container_medication {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 481px;
+  box-shadow: 1px 1px 2px #000;
+  background-color: #547fb6;
+}
+
+button.btn.btn-outline-primary.continue {
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  margin-top: 1px;
+  position: relative;
+  left: 22rem;
+  z-index: 0;
+}
+
+button.btn.btn-outline-primary.continue:hover {
+  border-color: steelblue;
+  background-color: rgb(255, 255, 255);
+  color: steelblue;
+}
+
+.container_medication label {
+  color: black !important;
+  font-size: 20px;
+}
+
+.container_medication input {
+  /*border-radius: 3px!important;*/
+  margin-bottom: 3px !important;
+  border-radius: 5px;
+}
+
+.btn.btn-outline-primary.search {
+  position: relative;
+  left: 365px;
+  top: -41px;
+}
+
+.btn.btn-outline-primary.continue {
+  position: relative;
+  left: 23rem;
+  z-index: 1;
+}
+
+.container_medication strong {
+  color: steelblue !important;
+}
+
+button.btn.btn-outline-primary.add {
+  position: relative;
+  left: 13rem;
+}
+
+button.btn.btn-outline-primary.remove {
+  position: relative;
+  left: 19rem;
+  top: -0.5rem;
+}
+
+.container_medication ul {
+  list-style: none;
+  margin-left: -1.9rem;
+}
+
+button.btn.btn-outline-primary.send {
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  margin-top: 1px;
+  position: relative;
+  z-index: 0;
+}
+
+button.btn.btn-outline-primary.send:hover {
+  border-color: steelblue;
+  background-color: rgb(255, 255, 255);
+  color: steelblue;
+}
+
+form.row.g-3.newPatientDemo {
+  margin: 30px;
+}
+
+/*.newPatientDemo input.form-control select.form-control {*/
+/*    width: 40ch;*/
+/*}*/
+
+.newPatientDemo input.form-control,
+select.form-control {
+  width: 40ch;
+}
+
+.container.container_medication.rrx {
+  margin-left: 32rem;
+  margin-bottom: 4rem;
+  margin-top: -3rem;
+  position: relative;
+  top: -34rem;
+}
+
+.gap-2.col-md-4.float-end.added {
+  margin-right: 0rem !important;
+}
+
+/* ------------ Mina start --------------------------------------------------------------------- */
+
+.requiredField {
+  color: red;
+  font-weight: 700;
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
+
+.addSybmol {
+  font-size: 1rem;
+  margin-left: 2px;
+  font-weight: bold;
+  vertical-align: 30%;
+}
+
+h1 {
+  color: #25649e;
+  font-weight: 400 !important;
+  font-size: 2rem !important;
+  margin: 2rem 0 !important;
+  filter: drop-shadow(0.02rem 0.02rem 0.07rem #25649e);
+  letter-spacing: 1px;
+  font-family: "Nunito", sans-serif;
+}
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.btn.ph-admin-profile {
+  width: 12rem;
+}
+
+.btn-success {
+  background-color: #3a85cb !important;
+  border-color: #3a85cb !important;
+  box-shadow: 1.5px 1.5px 2px rgba(0, 15, 27, 0.82) !important;
+}
+
+.btn-success:hover {
+  background-color: #c9e5ff !important;
+  border-color: #c9e5ff !important;
+  color: #1e67ac !important;
+}
+
+nav.main-header {
+  position: sticky !important;
+  top: 0;
+}
+
+.provider_info p {
+  font-size: 1.2rem;
+}
+
+.col-form-label {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+}
+
+
+.msg-timestamp {
+  font-size: 0.65rem;
+}
+
+#success-msg {
+  color: #1bb71b;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.dash-card {
+  max-height: 20rem;
+}
+
+.dash-card img {
+  height: 9.5rem;
+  width: auto;
+  padding: 0.2rem 0.5rem;
+}
+
+.dash-card h5 {
+  font-size: 0.9rem !important;
+}
+
+.dash-card p {
+  font-size: 0.85rem !important;
+}
+
+.dash-card .card-body {
+  padding: 0.5rem 0;
+  margin: 0;
+}
+
+.survey-option-btn a {
+  text-decoration: none;
+  color: #5cb85c;
+}
+
+.survey-option-btn:hover a {
+  color: white !important;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #5e7078;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-item:active {
+  text-decoration: none;
+  color: #007fee;
+}
+
+.large-header {
+  display: block;
+}
+
+.small-header {
+  display: none !important;
+}
+
+.menu-control {
+  z-index: 2;
+  position: fixed !important;
+  top: 0;
+}
+
+.navbar-brand img {
+  width: 12rem;
+}
+
+.edit-btn-Sadmin {
+  text-align: center !important;
+  transition: 0.2s ease-in-out;
+}
+
+.edit-btn-Sadmin:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#superAdminModal {
+  align-self: center;
+  justify-self: center;
+  max-width: 95%;
+  max-height: 85vh;
+  overflow-y: scroll;
+
+}
+
+
+#roles-modal {
+  overflow-y: scroll;
+}
+
+#patients-long-list {
+  max-height: 53vh;
+  overflow-y: scroll;
+}
+
+#patients-long-list .ant-checkbox-wrapper:nth-of-type(1) {
+  padding-left: 0.5rem !important;
+}
+
+
+/* /////////////////////// Media queries/////////////////////// */
+
+@media only screen and (max-width: 900px) {
+  .large-header {
+    display: none !important;
+  }
+
+  .small-header {
+    display: flex !important;
+  }
+
+  .main-nav {
+    display: none !important;
+  }
+
+  #content {
+    margin-top: 7rem;
+  }
+
+  .navbar-brand img {
+    width: 10rem;
+  }
+
+  #content {
+    margin-top: 6.5rem;
+  }
+
+  #text-msg {
+    max-height: 4.5rem;
+  }
+
+  #patients-long-list {
+    max-height: 23vh;
+  }
+
+
+}
+
+@media only screen and (max-width: 779px) {
+  .provider_info p {
+    overflow-y: scroll;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .btn.ph-admin-profile {
+    width: 100%;
+  }
+
+  .provider_info p {
+    font-size: 0.9rem;
+  }
+
+  .navbar-brand img {
+    width: 9rem;
+    margin: 0;
+  }
+
+  #content {
+    margin-top: 5.7rem;
+  }
+}

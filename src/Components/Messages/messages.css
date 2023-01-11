@@ -1,0 +1,27 @@
+/* .channelslist {
+  overflow: scroll;
+  overflow-x: hidden;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  min-height: 60vh;
+  height: 60vh;
+  background-color: "white";
+  padding: "20px";
+} */
+
+/* .chat-area {
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  min-height: 49vh;
+  height: 49vh;
+  background-color: rgb(230, 230, 243);
+  border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+}
+ */

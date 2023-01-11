@@ -1,0 +1,22 @@
+.dash-card {
+  transition: 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+
+.dash-card:nth-of-type(1):hover,
+.dash-card:nth-of-type(2):hover {
+  cursor: pointer;
+  scale: 1.01;
+  filter: drop-shadow(0 0 0.5rem rgba(172, 206, 234, 0.521));
+}
+
+.dash-card:nth-of-type(1):hover .card,
+.dash-card:nth-of-type(2):hover .card {
+  border-color: #d6e9f2;
+}
+
+@media (max-width: 900px) {
+  .dashboard h1 {
+    width: unset;
+  }
+}
