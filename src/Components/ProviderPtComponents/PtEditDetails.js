@@ -210,8 +210,7 @@ export default function PtEditDetails(props) {
     });
     setPredictions([]);
   };
-  // AIzaSyCdvs-wne1yO5PmNUtFS-2_8nLCpw54zLE
-  //AIzaSyDykdFJ16oofV-O-VfrY5hUjq-GcT_bmJw
+
   // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   const ProviderId = sessionStorage.getItem("user");
